@@ -1,0 +1,64 @@
+body{
+    background: url("img/Inicio.jpg")  ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    font-family: cursive, Serif;
+}
+h1{
+    text-align: center;
+    font-style: oblique;
+}
+.formulario1{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.boton-registro{
+    position: relative;
+    display: inline-block;
+    padding: 5px 10px;
+    color: #000000;
+    font-size: 35px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.boton-registro:hover{
+    background: #FFD5FC;
+    box-shadow: 0 0 10px #FFD5FC, 0 0 40px #FFD5FC, 0 0 80px #FFD5FC;
+}
+.label1{
+    text-align: center;
+    font-style: oblique;
+    font-size: 35px;
+}
+.parrafo-correo{
+    text-align: center;
+    font-style: oblique;
+    font-size: 30px;
+}
+.parrafo-contraseña{
+    text-align: center;
+    font-style: oblique;
+    font-size: 30px;
+}
+.boton{
+    position: relative;
+    display: inline-block;
+    padding: 5px 10px;
+    color: #000000;
+    font-size: 30px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.boton:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+}
