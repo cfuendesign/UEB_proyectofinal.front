@@ -1,8 +1,8 @@
 Function
 function pagina() {
-    location.href = "Registro.html";
+    location.href = "registro.html";
 }
 Function
 function atras() {
-    location.href = "Ventana_Inicio.html";
+    location.href = "VentanaInicio.html";
 }
