@@ -4,7 +4,7 @@ function pagina() {
 }
 Function
 function atras() {
-    location.href = "VentanaInicio.html";
+    location.href = "index.html";
 }
 Function
 function propietario(){
