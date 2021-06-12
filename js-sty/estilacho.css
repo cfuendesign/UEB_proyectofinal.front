@@ -105,7 +105,7 @@ th,td,table{
     min-height: 350px;
     border-radius: 22px;
     position: absolute;
-    left: 100%;
+    display: none;
 }
 .cerrar{
     background: url("img/cancelar.png");
