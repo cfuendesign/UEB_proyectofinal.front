@@ -108,7 +108,8 @@ th,td,table{
     display: none;
 }
 .cerrar{
-    background: url("img/cancelar.png");
+    background: url("img/cancelar.png") center;
+    background-size: 100% 100%;
     position: absolute;
     right: 3px;
     top: 1px;
