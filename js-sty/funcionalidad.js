@@ -15,3 +15,7 @@ Function
 function veterinaria(){
     location.href = "Ventana-veterinaria.html";
 }
+Function
+function atras1(){
+    location.href = "index.html"
+}
