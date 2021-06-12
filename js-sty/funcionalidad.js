@@ -23,3 +23,11 @@ Function
 function Alcaldia(){
     location.href = "Alcaldia.html";
 }
+Function
+function Guardar(){
+    document.getElementById("ventana-pop").style.display="block";
+}
+Function
+function cerrar(){
+    document.getElementById("ventana-pop").style.display="none";
+}
