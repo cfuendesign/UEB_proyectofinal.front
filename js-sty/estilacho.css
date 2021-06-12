@@ -105,5 +105,5 @@ th,td,table{
     min-height: 350px;
     border-radius: 22px;
     position: absolute;
-    right: 50%;
+    left: 100%;
 }
