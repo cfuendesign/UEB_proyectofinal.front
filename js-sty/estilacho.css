@@ -96,7 +96,7 @@ th,td,table{
 }
 .ventana{
     background: #FFD5FC;
-    width: 250%;
+    width: 100%;
     color: #FFFFFF;
     font-family: cursive, cursive;
     font-size: 18px;
@@ -105,5 +105,5 @@ th,td,table{
     min-height: 350px;
     border-radius: 22px;
     position: absolute;
-    left: 50%;
+    left: 40%;
 }
