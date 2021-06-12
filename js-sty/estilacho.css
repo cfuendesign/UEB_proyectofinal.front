@@ -108,6 +108,7 @@ th,td,table{
     left: 100%;
 }
 .cerrar{
+    background: url("img/cancelar.png");
     position: absolute;
     right: 3px;
     size: 50px 50px;
