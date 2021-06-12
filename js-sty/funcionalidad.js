@@ -11,3 +11,7 @@ Function
 function propietario(){
     location.href = "Panel-Propietario.html";
 }
+Function
+function veterinaria(){
+    location.href = "Ventana-veterinaria.html";
+}
