@@ -106,10 +106,10 @@ th,td,table{
     border-radius: 22px;
     position: absolute;
     left: 100%;
-    display: none;
 }
 #cerrar{
     position: absolute;
     right: 3px;
+    size: 50px 50px;
     top: 1px;
 }
