@@ -96,13 +96,13 @@ th,td,table{
 }
 .ventana{
     background: #FFD5FC;
-    width: 30%;
+    width: 250%;
     color: #FFFFFF;
     font-family: cursive, cursive;
     font-size: 18px;
     text-align: center;
     padding: 33px;
-    min-height: 250px;
+    min-height: 350px;
     border-radius: 22px;
     position: absolute;
     left: 50%;
