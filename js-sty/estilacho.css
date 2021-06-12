@@ -65,7 +65,7 @@ h1{
 .titulo{
     background-color: rgba(255,255,255,0.2);
     height: 500px;
-
+    width: 250px;
     backdrop-filter: blur(20px);
     border: solid 1px rgba(255,255,255,0.3);
     border-radius: 10px;
@@ -78,4 +78,7 @@ h1{
 }
 th,td,table{
     border: 1px solid black;
+}
+.boton-crear{
+    background: url("img/boton +.jpg");
 }
