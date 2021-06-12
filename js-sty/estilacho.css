@@ -80,5 +80,8 @@ th,td,table{
     border: 1px solid black;
 }
 .boton-crear{
-    background: url("img/boton +.jpg");
+    background: url("img/boton +.jpg") center;
+    background-size: 100% 100%;
+    border: none;
+    cursor: pointer;
 }
