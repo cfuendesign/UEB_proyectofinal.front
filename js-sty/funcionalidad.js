@@ -19,3 +19,7 @@ Function
 function atras1(){
     location.href = "index.html"
 }
+Function
+function Alcaldia(){
+    location.href = "Alcaldia.html";
+}
