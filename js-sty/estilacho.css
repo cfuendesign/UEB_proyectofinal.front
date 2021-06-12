@@ -107,7 +107,7 @@ th,td,table{
     position: absolute;
     left: 100%;
 }
-#cerrar{
+.cerrar{
     position: absolute;
     right: 3px;
     size: 50px 50px;
