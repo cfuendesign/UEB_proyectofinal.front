@@ -94,3 +94,15 @@ th,td,table{
     background: #FFD5FC;
     box-shadow: 0 0 10px #FFD5FC, 0 0 40px #FFD5FC, 0 0 80px #FFD5FC;
 }
+.ventana{
+    background: #FFD5FC;
+    width: 30%;
+    color: #FFFFFF;
+    font-family: cursive, cursive;
+    font-size: 18px;
+    text-align: center;
+    padding: 33px;
+    min-height: 250px;
+    border-radius: 22px;
+    position: absolute;
+}
