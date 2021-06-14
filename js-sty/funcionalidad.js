@@ -14,6 +14,10 @@ if (isPageLoaded = 1){
         }
     }
 }
+var isPageLoaded = 0;
+document.addEventListener("DOMContentLoaded", function(event) {
+    isPageLoaded = 1;
+});
 Function
 function atras() {
     location.href = "index.html";
