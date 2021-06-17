@@ -58,7 +58,6 @@ formpropier.onsubmit = (event) => {
     event.preventDefault();
     console.log(formDataJSON());
 };
-
 function formDataJSON() {
     const user = {};
     Array.from(formpropier.elements).forEach(element => {
