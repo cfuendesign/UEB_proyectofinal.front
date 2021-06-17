@@ -53,15 +53,16 @@ function cerrar(){
 }
 const formpropier = document.forms['propietario-form'];
 
-form.onboton = (event) => {
-    event.preventDefault();
+let form;
+form.onboton = ({preventDefault}) => {
+    preventDefault();
     console.log(formDataJSON());
 };
 
 function formDataJSON(){
 const user = {};
-Array.from(from.elements).forEach(elemen => {
-    if(elemen.name) user[element.name] = element.value;
+Array.from(formpropier.elements).forEach(element => {
+    if(element.name) user[element.name] = element.value;
 });
 return user;
 }
