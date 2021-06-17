@@ -51,3 +51,9 @@ Function
 function cerrar(){
     document.getElementById("ventana-pop").style.display="none";
 }
+// Aqui comienza para convertir los inpus en estados de JSON
+const formpropier = document.forms['propietario-form'];
+
+Array.from(from.elements).forEach(elements => {
+
+})
