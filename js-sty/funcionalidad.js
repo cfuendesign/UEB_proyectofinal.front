@@ -55,7 +55,7 @@ function cerrar() {
     document.getElementById("ventana-pop").style.display = "none";
 }
 
-const formpropier = document.forms['propietario-form','veterinarian-form'];
+const formpropier = document.forms['propietario-form'];
 
 formpropier.onsubmit = (event) => {
     event.preventDefault();
