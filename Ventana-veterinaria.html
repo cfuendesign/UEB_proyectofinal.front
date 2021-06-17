@@ -96,7 +96,21 @@
             <td><input type="submit" class="boton" value="Subir"></td>
         </table>
     </div>
-    <script src="js-sty/Funcion-veterinaria.js"></script>
+    <script src="js-sty/Funcion-veterinaria.js">
+        const formvetter = document.forms['veterinarian-form'];
+        formvetter.onsubmit = (event) => {
+            event.preventDefault();
+            console.log(formDataJSON());
+        };
+
+        function formDataJSON() {
+            const user1 = {};
+            Array.from(formvetter.elements).forEach(element => {
+                if (element.name) user1[element.name] = element.value;
+            });
+            return user1;
+        }
+    </script>
 </div>
 <div>
     <input type="button" class="boton-registro" value="Atras" onclick="atras1();" align="center">
