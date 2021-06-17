@@ -1,8 +1,3 @@
-var isPageLoaded = 0;
-document.addEventListener("DOMContentLoaded", function (event) {
-    isPageLoaded = 1;
-});
-
 function atras() {
     location.href = "index.html";
 }
