@@ -29,7 +29,6 @@ function Guardar() {
 function cerrar() {
     document.getElementById("ventana-pop").style.display = "none";
 }
-
 const formvetter = document.forms['veterinarian-form'];
 formvetter.onsubmit = (event) => {
     event.preventDefault();
