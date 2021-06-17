@@ -21,4 +21,5 @@ function formDataJSON() {
         if (element.name) user1[element.name] = element.value;
     });
     return user1;
+    form.reset();
 }

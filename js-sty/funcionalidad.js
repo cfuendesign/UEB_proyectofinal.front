@@ -68,4 +68,5 @@ function formDataJSON() {
         if (element.name) user[element.name] = element.value;
     });
     return user;
+    form.reset();
 }
