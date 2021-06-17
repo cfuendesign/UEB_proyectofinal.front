@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="js-sty/estilacho.css">
-    <script src="js-sty/funcionalidad.js"></script>
     <link rel="icon" href="js-sty/img/Icono.ico">
     <title>Ciudadanos de 4 patas / Veterinaria</title>
 </head>
@@ -68,21 +67,23 @@
                     Registros
                 </th>
             </tr>
+            <form action="Interfaz-Vt" name="Veterinaria-form">
             <tr style="text-align: center">
-                <td><p class="parrafo-correo"></p><input type="text" placeholder="Discriminado"></td>
-                <td><p class="parrafo-correo"></p><input type="text" placeholder="Raza"></td>
-                <td><p class="parrafo-correo"></p><input type="text" placeholder="Tamaño"></td>
-                <td><p class="parrafo-correo"></p><input type="text" placeholder="Sexo"></td>
-                <td><p class="parrafo-correo"></p><input type="text" placeholder="Esteralizados"></td>
+                <td><p class="parrafo-correo"></p><input type="text" placeholder="Discriminado" id="discriminado" name="discriminado" value=""></td>
+                <td><p class="parrafo-correo"></p><input type="text" placeholder="Raza" id="raza" name="raza" value=""></td>
+                <td><p class="parrafo-correo"></p><input type="text" placeholder="Tamaño" id="tamaño" name="tamaño" value=""></td>
+                <td><p class="parrafo-correo"></p><input type="text" placeholder="Sexo" id="sexo" name="sexo" value=""></td>
+                <td><p class="parrafo-correo"></p><input type="text" placeholder="Esteralizados" id="esterilizado" name="esterilizado" value=""></td>
             </tr>
+            </form>
             <br> <br>
-            <td><input type="button" class="boton" value="Guardar"></td>
+            <td><input type="submit" class="boton" value="Guardar"></td>
         </table>
     </div>
 </div>
-
+<script src="js-sty/funcionalidad.js"></script>
 <div>
-    <input type="button" class="boton-registro" value="Atras" onclick="atras1();">
+    <input type="button" class="boton-registro" value="Atras" onclick="atras1();" align="center">
 </div>
 </body>
 </html>
