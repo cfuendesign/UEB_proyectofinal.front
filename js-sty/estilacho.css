@@ -58,7 +58,7 @@ h1 {
 }
 
 .boton {
-    position: relative;
+    position: center;
     display: inline-block;
     padding: 5px 10px;
     color: #000000;
