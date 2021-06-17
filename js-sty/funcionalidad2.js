@@ -30,15 +30,15 @@ function cerrar() {
     document.getElementById("ventana-pop").style.display = "none";
 }
 
-const formVetter = document.forms['veterinarian-form'];
-formVetter.onsubmit = (event) => {
+const formvetter = document.forms['veterinarian-form'];
+formvetter.onsubmit = (event) => {
     event.preventDefault();
-    console.log(formDataJSONVt());
+    console.log(formDataJSON());
 };
 
-function formDataJSONVt() {
+function formDataJSON() {
     const user = {};
-    Array.from(formVetter.elements).forEach(element => {
+    Array.from(formvetter.elements).forEach(element => {
         if (element.name) user[element.name] = element.value;
     });
     return user;
