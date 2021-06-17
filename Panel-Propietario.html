@@ -47,7 +47,7 @@
           Localidad
         </th>
       </tr>
-      <form action="Imagen_Iniciar" method="POST" name="propietario-form">
+      <form action="Imagen_Iniciar" name="propietario-form">
       <tr style="text-align: center">
         <input style="font: oblique bold 200% cursive;" type="file" id="file">
         <div id="preview"></div>
@@ -58,7 +58,7 @@
         <td><p class="parrafo-correo" ></p><input type="text" placeholder="Localidad" id="localidad" name="localidad" value=""></td>
       </tr>
       <br> <br>
-      <td><input type="submit" class="boton" value="Guardar"></td>
+      <td><input type="submit" class="boton" value="Guardar" onclick="onsubmit();"></td>
       </form>
     </table>
   </div>
