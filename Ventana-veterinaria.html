@@ -13,20 +13,40 @@
 </div>
 <table style="width: 100%">
     <tr>
-        <th style="font: oblique bold 30px cursive; color: #FFFFFF;">Fotografia<br><input type="button" class="boton-crear" value="Editar" onclick="Guardar();"></th>
-        <th style="font: oblique bold 30px cursive; color: #FFFFFF;">Microchip<br><input type="button" class="boton-crear" value="Editar" onclick="Guardar();"></th>
-        <th style="font: oblique bold 30px cursive; color: #FFFFFF;">casos<br><input type="button" class="boton-crear" value="Editar" onclick="Guardar();"></th>
-        <th style="font: oblique bold 30px cursive; color: #FFFFFF;">Fecha<br><input type="button" class="boton-crear" value="Editar" onclick="Guardar();"></th>
-        <th style="font: oblique bold 30px cursive; color: #FFFFFF;">Direccion<br><input type="button" class="boton-crear" value="Editar" onclick="Guardar();"></th>
-        <th style="font: oblique bold 30px cursive; color: #FFFFFF;">Localidad<br><input type="button" class="boton-crear" value="Editar" onclick="Guardar();"></th>
+        <th style="font: oblique bold 30px cursive; color: #FFFFFF;">Fotografia<br><input type="button"
+                                                                                          class="boton-crear"
+                                                                                          value="Editar"
+                                                                                          onclick="Editar();"></th>
+        <th style="font: oblique bold 30px cursive; color: #FFFFFF;">Microchip<br><input type="button"
+                                                                                         class="boton-crear"
+                                                                                         value="Editar"
+                                                                                         onclick="Editar();"></th>
+        <th style="font: oblique bold 30px cursive; color: #FFFFFF;">casos<br><input type="button" class="boton-crear"
+                                                                                     value="Editar" onclick="Editar();">
+        </th>
+        <th style="font: oblique bold 30px cursive; color: #FFFFFF;">Fecha<br><input type="button" class="boton-crear"
+                                                                                     value="Editar" onclick="Editar();">
+        </th>
+        <th style="font: oblique bold 30px cursive; color: #FFFFFF;">Direccion<br><input type="button"
+                                                                                         class="boton-crear"
+                                                                                         value="Editar"
+                                                                                         onclick="Editar();"></th>
+        <th style="font: oblique bold 30px cursive; color: #FFFFFF;">Localidad<br><input type="button"
+                                                                                         class="boton-crear"
+                                                                                         value="Editar"
+                                                                                         onclick="Editar();"></th>
     </tr>
 </table>
+<div align="center">
+    <input input type="button" class="boton-crear" value="Nuevo" onclick="Guardar();">
+</div>
 <!--Generacion del Pop-up-->
 
 <div class="ventana" id="ventana-pop">
     <div>
         <input type="button" onclick="cerrar()" class="cerrar">
-        <p style="text-align: center; font-family: cursive, cursive; font-size: 30px; color: blue">Por favor Ingrese los datos de la tabla</p>
+        <p style="text-align: center; font-family: cursive, cursive; font-size: 30px; color: blue">Por favor Ingrese los
+            datos de la tabla</p>
         <table style="width: 85%">
             <tr>
                 <th style="font-size: 30px">
@@ -49,11 +69,11 @@
                 </th>
             </tr>
             <tr style="text-align: center">
-                <td><p class="parrafo-correo" ></p><input type="text" placeholder="Discriminado"></td>
-                <td><p class="parrafo-correo" ></p><input type="text" placeholder="Raza"></td>
-                <td><p class="parrafo-correo" ></p><input type="text" placeholder="Tamaño"></td>
-                <td><p class="parrafo-correo" ></p><input type="text" placeholder="Sexo"></td>
-                <td><p class="parrafo-correo" ></p><input type="text" placeholder="Esteralizados"></td>
+                <td><p class="parrafo-correo"></p><input type="text" placeholder="Discriminado"></td>
+                <td><p class="parrafo-correo"></p><input type="text" placeholder="Raza"></td>
+                <td><p class="parrafo-correo"></p><input type="text" placeholder="Tamaño"></td>
+                <td><p class="parrafo-correo"></p><input type="text" placeholder="Sexo"></td>
+                <td><p class="parrafo-correo"></p><input type="text" placeholder="Esteralizados"></td>
             </tr>
             <br> <br>
             <td><input type="button" class="boton" value="Guardar"></td>
