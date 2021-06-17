@@ -68,13 +68,34 @@
                 </th>
             </tr>
             <form action="Interfaz-Vt" name="veterinarian-form">
-            <tr style="text-align: center">
-                <td><p class="parrafo-correo"></p><input type="text" placeholder="Discriminado" id="discriminado" name="discriminado" value=""></td>
-                <td><p class="parrafo-correo"></p><input type="text" placeholder="Raza" id="raza" name="raza" value=""></td>
-                <td><p class="parrafo-correo"></p><input type="text" placeholder="Tamaño" id="tamaño" name="tamaño" value=""></td>
-                <td><p class="parrafo-correo"></p><input type="text" placeholder="Sexo" id="sexo" name="sexo" value=""></td>
-                <td><p class="parrafo-correo"></p><input type="text" placeholder="Esteralizados" id="esterilizado" name="esterilizado" value=""></td>
-            </tr>
+                <tr style="text-align: center">
+                    <td><p class="parrafo-correo"></p> <select id="discriminado" name="discriminado"
+                        value="" >
+                            <option>Seleccione...</option>
+                            <option>MACHO</option>
+                            <option>HEMBRA</option>
+                        </select>
+                    </td>
+                    <td><p class="parrafo-correo"></p><input type="text" placeholder="Raza" id="raza" name="raza"
+                                                             value=""></td>
+                    <td><p class="parrafo-correo"></p> <select id="tamaño" name="tamaño" value="">
+                            <option>Seleccione...</option>
+                            <option>MINIATURA</option>
+                            <option>PEQUEÑO</option>
+                            <option>MEDIANO</option>
+                            <option>GRANDE</option>
+                        </select></td>
+                    <td><p class="parrafo-correo"></p><select id="sexo" name="sexo" value="">
+                        <option>Seleccione...</option>
+                        <option>MACHO</option>
+                        <option>HEMBRA</option>
+                    </select></td>
+                    <td><p class="parrafo-correo"></p><select id="esterilizado" name="esterilizado" value="">
+                        <option>Seleccione...</option>
+                        <option>SI</option>
+                        <option>NO</option>
+                    </select></td>
+                </tr>
             </form>
             <br> <br>
             <td><input type="submit" class="boton" value="Guardar"></td>
