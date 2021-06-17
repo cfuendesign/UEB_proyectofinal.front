@@ -55,7 +55,7 @@ const formpropier = document.forms['propietario-form'];
 
 let form;
 
-form.onboton = ({preventDefault}) => {
+form.onsubmit = ({preventDefault}) => {
     preventDefault();
     console.log(formDataJSON());
 };
