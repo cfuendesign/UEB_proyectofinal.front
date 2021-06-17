@@ -38,9 +38,11 @@ function propietario() {
 function veterinaria() {
     location.href = "Ventana-veterinaria.html";
 }
+
 function atras1() {
     location.href = "index.html"
 }
+
 function Alcaldia() {
     location.href = "Alcaldia.html";
 }
@@ -48,6 +50,7 @@ function Alcaldia() {
 function Guardar() {
     document.getElementById("ventana-pop").style.display = "block";
 }
+
 function cerrar() {
     document.getElementById("ventana-pop").style.display = "none";
 }
@@ -58,6 +61,7 @@ formpropier.onsubmit = (event) => {
     event.preventDefault();
     console.log(formDataJSON());
 };
+
 function formDataJSON() {
     const user = {};
     Array.from(formpropier.elements).forEach(element => {

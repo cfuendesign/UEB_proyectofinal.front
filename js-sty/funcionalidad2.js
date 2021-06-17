@@ -34,11 +34,13 @@ function Guardar() {
 function cerrar() {
     document.getElementById("ventana-pop").style.display = "none";
 }
+
 const formVetter = document.forms['veterinarian-form'];
 formVetter.onsubmit = (event) => {
     event.preventDefault();
     console.log(formDataJSONVt());
 };
+
 function formDataJSONVt() {
     const user = {};
     Array.from(formVetter.elements).forEach(element => {
@@ -46,5 +48,6 @@ function formDataJSONVt() {
     });
     return user;
 }
-function Editar(){
+
+function Editar() {
 }
