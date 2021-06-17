@@ -1,25 +1,5 @@
-function atras() {
-    location.href = "index.html";
-}
-
-function pagina() {
-    location.href = "registro.html";
-}
-
-function propietario() {
-    location.href = "Panel-Propietario.html";
-}
-
-function veterinaria() {
-    location.href = "Ventana-veterinaria.html";
-}
-
 function atras1() {
     location.href = "index.html"
-}
-
-function Alcaldia() {
-    location.href = "Alcaldia.html";
 }
 
 function Guardar() {
