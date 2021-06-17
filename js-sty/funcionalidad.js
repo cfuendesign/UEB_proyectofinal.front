@@ -52,11 +52,9 @@ function cerrar(){
     document.getElementById("ventana-pop").style.display="none";
 }
 const formpropier = document.forms['propietario-form'];
-
 let form;
-
-form.onsubmit = ({preventDefault}) => {
-    preventDefault();
+form.onsubmit = (event) => {
+    event.preventDefault();
     console.log(formDataJSON());
 };
 
