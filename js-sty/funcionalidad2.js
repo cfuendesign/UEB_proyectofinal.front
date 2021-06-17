@@ -34,15 +34,15 @@ function Guardar() {
 function cerrar() {
     document.getElementById("ventana-pop").style.display = "none";
 }
-const formVeteri = document.forms['veterinaria-form'];
+const formVetter = document.forms['veterinaria-form'];
 
-formVeteri.onsubmit = (event) => {
+formVetter.onsubmit = (event) => {
     event.preventDefault();
     console.log(formDataJSONVt());
 };
 function formDataJSONVt() {
     const user = {};
-    Array.from(formVeteri.elements).forEach(element => {
+    Array.from(formVetter.elements).forEach(element => {
         if (element.name) user[element.name] = element.value;
     });
     return user;
