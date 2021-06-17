@@ -119,7 +119,7 @@ th, td, table {
     padding: 33px;
     min-height: 350px;
     border-radius: 22px;
-    position: absolute;
+    position: center;
     display: none;
 }
 
