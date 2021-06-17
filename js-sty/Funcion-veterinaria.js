@@ -13,6 +13,7 @@ const formvetter = document.forms['veterinarian-form'];
 formvetter.onsubmit = (event) => {
     event.preventDefault();
     console.log(formDataJSON());
+    formvetter.reset();
 };
 
 function formDataJSON() {
@@ -21,5 +22,4 @@ function formDataJSON() {
         if (element.name) user1[element.name] = element.value;
     });
     return user1;
-    formvetter.reset();
 }
