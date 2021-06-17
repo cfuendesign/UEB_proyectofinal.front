@@ -54,6 +54,7 @@ function cerrar(){
 const formpropier = document.forms['propietario-form'];
 
 let form;
+
 form.onboton = ({preventDefault}) => {
     preventDefault();
     console.log(formDataJSON());
