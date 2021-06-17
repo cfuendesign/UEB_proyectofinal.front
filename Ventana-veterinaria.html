@@ -60,9 +60,6 @@
                 <th style="font-size: 30px">
                     Esteralizados
                 </th>
-                <th style="font-size: 30px">
-                    Registros
-                </th>
             </tr>
             <form action="Interfaz-Vt" name="veterinarian-form">
                 <tr style="text-align: center">
@@ -91,26 +88,11 @@
                         <option>NO</option>
                     </select></td>
                 </tr>
+                <td><input type="submit" class="boton" value="Subir"></td>
             </form>
-            <br><br>
-            <td><input type="submit" class="boton" value="Subir"></td>
         </table>
     </div>
-    <script src="js-sty/Funcion-veterinaria.js">
-        const formvetter = document.forms['veterinarian-form'];
-        formvetter.onsubmit = (event) => {
-            event.preventDefault();
-            console.log(formDataJSON());
-        };
-
-        function formDataJSON() {
-            const user1 = {};
-            Array.from(formvetter.elements).forEach(element => {
-                if (element.name) user1[element.name] = element.value;
-            });
-            return user1;
-        }
-    </script>
+    <script src="js-sty/Funcion-veterinaria.js"></script>
 </div>
 <div>
     <input type="button" class="boton-registro" value="Atras" onclick="atras1();" align="center">
