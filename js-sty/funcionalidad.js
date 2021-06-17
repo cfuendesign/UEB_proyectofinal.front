@@ -60,7 +60,6 @@ const formpropier = document.forms['propietario-form'];
 formpropier.onsubmit = (event) => {
     event.preventDefault();
     console.log(formDataJSON());
-    form.reset();
 };
 
 function formDataJSON() {
@@ -69,4 +68,5 @@ function formDataJSON() {
         if (element.name) user[element.name] = element.value;
     });
     return user;
+    formpropier.reset();
 }
