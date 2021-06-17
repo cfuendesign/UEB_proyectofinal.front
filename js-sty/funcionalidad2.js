@@ -34,7 +34,7 @@ function Guardar() {
 function cerrar() {
     document.getElementById("ventana-pop").style.display = "none";
 }
-const formVetter = document.forms['veterinaria-form'];
+const formVetter = document.forms['veterinarian-form'];
 
 formVetter.onsubmit = (event) => {
     event.preventDefault();
