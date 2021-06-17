@@ -16,9 +16,9 @@ formvetter.onsubmit = (event) => {
 };
 
 function formDataJSON() {
-    const user = {};
+    const user1 = {};
     Array.from(formvetter.elements).forEach(element => {
-        if (element.name) user[element.name] = element.value;
+        if (element.name) user1[element.name] = element.value;
     });
-    return user;
+    return user1;
 }
