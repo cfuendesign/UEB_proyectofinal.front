@@ -48,6 +48,3 @@ function formDataJSONVt() {
     });
     return user;
 }
-
-function Editar() {
-}
