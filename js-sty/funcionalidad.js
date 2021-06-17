@@ -82,16 +82,3 @@ function formDataJSON() {
     });
     return user;
 }
-const formVeteri = document.forms['Veterinaria-form'];
-
-formVeteri.onsubmit = (event) => {
-    event.preventDefault();
-    console.log(formDataJSONVt());
-}
-function formDataJSONVt() {
-    const user = {};
-    Array.from(formpropier.elements).forEach(element => {
-        if (element.name) user[element.name] = element.value;
-    });
-    return user;
-}
