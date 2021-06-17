@@ -116,11 +116,10 @@ th, td, table {
     color: #FFFFFF;
     font-family: cursive, cursive;
     font-size: 18px;
-    text-align: center;
     padding: 33px;
     min-height: 350px;
     border-radius: 22px;
-    position: center;
+    position: absolute;
     display: none;
 }
 
