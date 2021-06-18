@@ -87,3 +87,46 @@ function formDataJSON() {
     });
     return user;
 }
+
+//Se crea una cookie de nombre de usuario para realizar queries posteriormente
+function newCookie(){
+    let username = document.getElementById("propuser");
+    document.cookie("username="+propuser.innerHTML);
+}
+ 
+//Extractor de cookies
+function cookieCutter(cookieName){
+    let cookieSplitA = document.cookie.split(";");
+    for(i=0; i<cookieSplitA; i++){
+        let cookieSplitB = cookieSplitA[i].split("=");
+        if(cookieSplitB[0] == cookieName){
+            return cookieSplitB[1];
+        }
+    }
+}
+
+function getUserID(){
+    //You get the user's data
+}
+
+//"pet_id", "microchip", "name", "species", "race", "size", "sex", "picture", "owner_id"
+function createJSONFromDOM(){
+    let jsonA = formDataJSON.parse();
+    //consultar en base de datos el id del owner
+    let username = username
+    let jsonB = JSON.stringify(
+        {
+            "pet_id" : jsonA.pet_id,
+            "microchip" : jsonA.microchip,
+            "name" : jsonA.name,
+            "species" : jsonA.species,
+            "race" : jsonA.race,
+            "size" : jsonA.size,
+            "sex" : jsonA.sex,
+            "image" : canvasbase64,
+            "owner_id" : cookieCutter("username")
+        }
+    )
+
+    return jsonB
+}
