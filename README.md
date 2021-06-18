@@ -2,6 +2,8 @@
 
 Realizado con sangre, sudor y lágrimas, pero sobre todo con ❤️ por el equipo Ballistic Software/Softworks
 
+#### Vídeo Explicativo: https://youtu.be/FmUWqCvLuTY
+
 ## Miembros
 
 Juan Castillo
